@@ -23,9 +23,9 @@ export function Transactions() {
 
         <TransactionsTable>
           <tbody>
-            {transactions.map((transaction) => {
+            {transactions.map((transaction, index) => {
               return (
-                <tr>
+                <tr key={index}>
                   <td width="50%">{transaction.description}</td>
                   <td>
                     <PriceHighlight variant={transaction.type}>
