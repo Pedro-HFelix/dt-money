@@ -47,6 +47,14 @@
       "type": "income",
       "createdAt": "2024-07-10T18:06:30.100Z",
       "id": 6
+    },
+    {
+      "description": " macbook",
+      "price": 60000,
+      "category": "venda",
+      "type": "income",
+      "createdAt": "2024-07-10T20:41:06.638Z",
+      "id": 7
     }
   ]
 }
